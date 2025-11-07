@@ -12,6 +12,7 @@ public class BankovniUcetZpoplatneny extends BankovniUcet{
     public void vypisInfo() {
         super.vypisInfo();
         System.out.println("Poplatek za výběr je:"+poplatekZaVyber);
+        System.out.println("Číslo účtu:"+getCisloUctu());
 
     }
 
