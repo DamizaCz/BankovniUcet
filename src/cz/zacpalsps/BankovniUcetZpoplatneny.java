@@ -5,7 +5,7 @@ public class BankovniUcetZpoplatneny extends BankovniUcet{
 
     public BankovniUcetZpoplatneny(String cisloUctu, String jmenoMajitele, double stavUctu) {
         super(cisloUctu, jmenoMajitele,0);
-        this.poplatekZaVyber = poplatekZaVyber;
+        this.poplatekZaVyber = 25.0;
     }
 
     @Override
