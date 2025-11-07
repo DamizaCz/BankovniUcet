@@ -16,5 +16,9 @@ public class BankovniUcetZpoplatneny extends BankovniUcet{
 
     }
 
+    @Override
+    public boolean vyber(double castka) {
+        return super.vyber(castka);
+    }
 }
 

@@ -11,10 +11,15 @@ public class Main {
         BankovniUcet bu01 = new BankovniUcet("121-125888/0100",jmeno,0);
         BankovniUcetZpoplatneny buz01 = new BankovniUcetZpoplatneny("121-125888/0100",jmeno,20);
             System.out.println("zadejte prosím částku kterou si přejete vlozit");
-            double vlozCastku = sc.nextInt();
+            double vlozCastku = sc.nextDouble();
             bu01.vloz(vlozCastku);
             buz01.vloz(vlozCastku);
             buz01.vypisInfo();
+        System.out.println("Vyberte částku kterou si přejete vybrat");
+        double vyberCastku = sc.nextDouble();
+        bu01.vyber(vyberCastku);
+        buz01.vyber(vyberCastku);
+        bu01.vypisInfo();
 
 
         }
